@@ -57,3 +57,7 @@ Scanning and performance arguments:
    -t         <int>         number of threads (default: 1)
 
 ```
+You may compile squid using the following command on a \*NIX terminal: 
+```console
+gcc squid.c -o squid -g -O3 -lz -pthread -Wall
+```
