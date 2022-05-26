@@ -2,10 +2,13 @@
 
 # Introduction  
 Squid is a sequencing reads ungapped mapper and splitter, designed for high performance and customizability. It is highly intuitive, supports multithreading and it does not need a separate step for index building. Here are some of its key features:
-- 6.4x faster than Bowtie2;
+- 6.4x faster than Bowtie2*;
 - outputs BED / BEDPE for fast downstream analyses;
 - outputs FASTQ for reads that map or do not map to an input database;
 - compatible with the most commonly used sequencing library preparation protocols;
+
+## Citation  
+Riccardi, C., Innocenti, G., Fondi, M., & Bacci, G. (2022). Fast, Ungapped Reads Mapping Using Squid. International journal of environmental research and public health, 19(9), 5442. https://doi.org/10.3390/ijerph19095442  
 
 ## Usage  
 ```console
@@ -61,3 +64,4 @@ You may compile squid using the following command on a \*NIX terminal:
 ```console
 gcc squid.c -o squid -g -O3 -lz -pthread -Wall
 ```
+\* The two programs aren't comparable. We admire Bowtie2 and all of its oribiting software, as a matter of fact we also use it extensively in our research. Since it is well known we report this average execution time comparison just so that Squid users know what running time to expect. Find out more on our paper! 
