@@ -50,7 +50,7 @@ Scanning and performance arguments:
                             Default is to break as soon as a suitable match is found (-e 0). This option is meaningful
                             when BED/BEDPE output is enabled. Greater values of <int> affect performance but could
                             report a more accurate mapping when higly similar sequences are present in the database.
-   -k         <int>         kmer size: 9, 11, 13 or 15 (default: 15)
+   -k         <int>         kmer size: 9, 11, 13 or 15 (default: 11)
    -m         <int>         max % of mismatches allowed during ungapped extension
                             Default is to force 85% sequence identity, hence -m 15.
    -s         <int>         step size while sliding over the sequencing reads
