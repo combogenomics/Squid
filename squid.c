@@ -214,7 +214,7 @@ void print_help() {
 		"                            Default is to break as soon as a suitable match is found (-e 0). This option is meaningful\n"
 		"                            when BED/BEDPE output is enabled. Greater values of <int> affect performance but could\n"
 		"                            report a more accurate mapping when higly similar sequences are present in the database.\n"
-		"   -k         <int>         kmer size: 9, 11, 13 or 15 (default: 15)\n"
+		"   -k         <int>         kmer size: 9, 11, 13 or 15 (default: 11)\n"
 		"   -m         <int>         max %% of mismatches allowed during ungapped extension\n"
 		"                            Default is to force 85%% sequence identity, hence -m 15.\n"
 		"   -s         <int>         step size while sliding over the sequencing reads\n"
